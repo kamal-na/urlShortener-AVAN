@@ -1,0 +1,4 @@
+Django
+requests
+djangorestframework
+djongo==1.3.6
