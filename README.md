@@ -38,16 +38,21 @@ URI Example: `http://localhost:8000/shorten-url/`
 
 
 <br>
+
   #### notice: You must be authorize to post and generate short url.
   for this job I recommended to use postman and use below usernam and password.
   username: admin
   pass: admin
+
 <br>
 
 <br>
+
   #### Test
   I add multiple test for testing and for this job you can run below command:
+
   ```
   python manage.py test
   ```
+  
 <br>
