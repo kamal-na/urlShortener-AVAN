@@ -22,12 +22,13 @@ How Url Shortener API Works:
 <br><br>
 
 
-<br>
-
 ## USAGE
 #### 1. Endpoint List
 URI Example: `http://localhost:8000/shorten-url/`
-(Eg. body: {'url':'https://www.farsnews.ir/news/14011216000365/%D9%82%D8%B1%D8%B9%D9%87-%DA%A9%D8%B4%DB%8C-%D8%AC%D8%A7%D9%85-%D8%AD%D8%B0%D9%81%DB%8C-%D8%A7%D9%86%D8%AC%D8%A7%D9%85-%D8%B4%D8%AF%7C-%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84-%D8%AF%D8%B1-%D8%AC%D9%85-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%AF%D8%B1-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1-%D8%A8%D8%B1%D9%86%D8%AF%D9%87')
+
+```
+(Eg. body: {'url':'https://www.farsnews.ir/news/14011216000365/%D9%82%D8%B1%D8%B9%D9%87-%DA%A9%D8%B4%DB%8C-%D8%AC%D8%A7%D9%85-%D8%AD%D8%B0%D9%81%DB%8C-%D8%A7%D9%86%D8%AC%D8%A7%D9%85-%D8%B4%D8%AF%7C-%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84-%D8%AF%D8%B1-%D8%AC%D9%85-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%AF%D8%B1-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1-%D8%A8%D8%B1%D9%86%D8%AF%D9%87'})
+```
 
 | | Available Methods | URI | Example URL |
 | -: | :- | :- | -: |
