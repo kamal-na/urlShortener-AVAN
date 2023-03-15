@@ -3,7 +3,7 @@
   Url Shortener API
 </h1>
 
-> Url shortener API with Django and django rest framework.
+> Url shortener API with Django and django rest framework and MongoDB.
 
 
 How Url Shortener API Works:
@@ -39,10 +39,13 @@ URI Example: `http://localhost:8000/shorten-url/`
 
 <br>
 
-  #### notice: You must be authorize to post and generate short url.
+  #### Notice: You must be authorize to post and generate short url.
   for this job I recommended to use postman and use below usernam and password.
+
+  ```
   username: admin
   pass: admin
+  ```
 
 <br>
 
@@ -54,5 +57,5 @@ URI Example: `http://localhost:8000/shorten-url/`
   ```
   python manage.py test
   ```
-  
+
 <br>
