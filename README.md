@@ -5,6 +5,13 @@
 
 > Url shortener API with Django and django rest framework and MongoDB.
 
+Run project with docker:
+- For run project with docker you need to run below commend:
+
+```
+sudo docker compose up -d
+```
+
 
 How Url Shortener API Works:
 - You can send (POST) a full url and retrieve a small encoded one with tier.app as the base web service url.
@@ -66,7 +73,7 @@ body: {'url':'https://www.farsnews.ir/news/14011216000365/%D9%82%D8%B1%D8%B9%D9%
 <br>
 
   #### Test
-  I add multiple test for testing and for this job you can run below command:
+  I have been add multiple test for testing and for this job you can run below command:
 
   ```
   python manage.py test
