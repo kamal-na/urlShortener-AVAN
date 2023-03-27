@@ -5,6 +5,14 @@
 
 > Url shortener API with Django and django rest framework and MongoDB.
 
+### MongoDB Server
+
+Run a mongodb server with docker:
+
+```
+$ docker run --rm -itd --name mongodb -p 27017:27017 mongo:4.4
+```
+
 Run project with docker:
 - For run project with docker you need to run below commend:
 
