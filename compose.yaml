@@ -1,5 +1,13 @@
 services: 
+  mongodb:
+    image: mongo:4.4
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+    volumes:
+      -  ./data:/data/db
   web: 
     build: urlShortner 
     ports: 
       - '8000:8000'
+      
